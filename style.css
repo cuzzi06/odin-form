@@ -2,6 +2,8 @@
   font-family: "NorseBold";
   src: url(./font/Norse-Bold.otf) format("opentype");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
