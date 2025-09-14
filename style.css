@@ -192,13 +192,7 @@ input:focus {
   color: var(--visited-color);
 }
 
-.log-in:focus {
-  outline-style: dotted;
-  outline-color: var(--active-color);
-  border-radius: 2px;
-  text-decoration: underline;
-}
-
+.log-in:focus,
 .credit:focus {
   outline-style: dotted;
   outline-color: var(--active-color);
