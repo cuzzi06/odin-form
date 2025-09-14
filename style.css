@@ -6,6 +6,8 @@
 
 :root {
   --button-color: #596d48;
+  --error-color: #f54242;
+  --active-color: #4290f5;
   --input-border: #e5e7eb;
   --main-background: #f2f4f7;
   --general-space: 3rem;
@@ -121,6 +123,12 @@ form input {
   height: 1.75rem;
   border: 1px solid var(--input-border);
   border-radius: 5px;
+  padding-left: 0.25rem;
+}
+
+#phone-number::-webkit-inner-spin-button,
+#phone-number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
 
 #submit-button {
@@ -142,4 +150,16 @@ form input {
 .message a {
   color: var(--button-color);
   text-decoration: none;
+}
+
+/* ADDS */
+
+input:user-invalid {
+  border: 1px solid var(--error-color);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid var(--active-color);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
