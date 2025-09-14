@@ -133,7 +133,7 @@ form input {
   padding-left: 0.25rem;
 }
 
-#submit-button {
+.submit-button {
   margin: 2rem var(--general-space);
   color: #fff;
   background-color: var(--button-color);
@@ -166,17 +166,17 @@ input:focus {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-#submit-button:hover {
+.submit-button:hover {
   cursor: pointer;
 }
 
-#submit-button:active {
+.submit-button:active {
   background-color: var(--active-click-color);
   box-shadow: none;
   transform: translate(-2px, 2px);
 }
 
-#submit-button:focus {
+.submit-button:focus {
   border: 1px solid var(--active-color);
 }
 
