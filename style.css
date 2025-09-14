@@ -6,7 +6,8 @@
 
 :root {
   --button-color: #596d48;
-  --active-btn-color: #4b5c3d;
+  --active-click-color: #4b5c3d;
+  --visited-color: #293321;
   --error-color: #f54242;
   --active-color: #4290f5;
   --input-border: #e5e7eb;
@@ -170,7 +171,37 @@ input:focus {
 }
 
 #submit-button:active {
-  background-color: var(--active-btn-color);
+  background-color: var(--active-click-color);
   box-shadow: none;
   transform: translate(-2px, 2px);
+}
+
+#submit-button:focus {
+  border: 1px solid var(--active-color);
+}
+
+.log-in:hover {
+  text-decoration: underline;
+}
+
+.log-in:active {
+  color: var(--active-color);
+}
+
+.log-in:visited {
+  color: var(--visited-color);
+}
+
+.log-in:focus {
+  outline-style: dotted;
+  outline-color: var(--active-color);
+  border-radius: 2px;
+  text-decoration: underline;
+}
+
+.credit:focus {
+  outline-style: dotted;
+  outline-color: var(--active-color);
+  border-radius: 2px;
+  text-decoration: underline;
 }
