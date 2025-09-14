@@ -6,6 +6,7 @@
 
 :root {
   --button-color: #596d48;
+  --active-btn-color: #4b5c3d;
   --error-color: #f54242;
   --active-color: #4290f5;
   --input-border: #e5e7eb;
@@ -162,4 +163,14 @@ input:focus {
   outline: none;
   border: 1px solid var(--active-color);
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#submit-button:hover {
+  cursor: pointer;
+}
+
+#submit-button:active {
+  background-color: var(--active-btn-color);
+  box-shadow: none;
+  transform: translate(-2px, 2px);
 }
