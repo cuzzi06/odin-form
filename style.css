@@ -88,10 +88,13 @@ main {
   margin-top: 0;
 }
 
+.text h1,
 .text h2 {
   margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
+.text h1 span,
 .text h2 span {
   font-style: italic;
 }
@@ -126,11 +129,6 @@ form input {
   border: 1px solid var(--input-border);
   border-radius: 5px;
   padding-left: 0.25rem;
-}
-
-#phone-number::-webkit-inner-spin-button,
-#phone-number::-webkit-outer-spin-button {
-  -webkit-appearance: none;
 }
 
 #submit-button {
