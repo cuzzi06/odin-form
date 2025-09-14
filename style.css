@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "NorseBold";
+  src: url(./font/Norse-Bold.otf) format("opentype");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.side-bar {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-banner {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 10rem;
+  margin-top: 12rem;
+}
+
+.logo {
+  width: 5rem;
+  height: auto;
+}
+
+.logo-banner h1 {
+  color: #fff;
+  font-family: "NorseBold";
+  font-size: 4rem;
+  height: 50px;
+}
+
+.side-bar p {
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
+}
+
+.credit {
+  color: #fff;
+}
