@@ -38,7 +38,7 @@
         <h2>You <span>know</span> you want to.</h2>
       </div>
 
-      <form method="post">
+      <form method="post" id="main-form">
         <h3>Let's do this!</h3>
         <div class="form-row">
           <div class="form-group">
@@ -76,7 +76,12 @@
           </div>
         </div>
       </form>
-      <input type="submit" value="Create Account" id="submit-button" />
+      <input
+        type="submit"
+        form="main-form"
+        value="Create Account"
+        id="submit-button"
+      />
       <p>Already have an account? <a href="" class="log-in">Log in</a></p>
     </main>
   </body>
